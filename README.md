@@ -4,7 +4,7 @@ Apostle Configuration Server
 Make development config file first.
 
 When requesting svge files, system operates in configuration mode, will not generate physical files.
-When requesting svg or png files, system will generate final apostle image (svg and png version) and upload to remote oss storage.
+When requesting svg or png files, system will generate final apostle image (svg and png version) and save to local storage.
 
     cp config/Debug.json.sample config/Debug.json
 
