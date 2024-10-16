@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+  svg-server:
+    container_name: 'svg-server'
+    build: .
+    environment:
+      REDIS_PORT: 6379
+      REDIS_HOST: redis
+      OSS_REGION: 'oss-cn-hangzhou'
+      OSS_BUCKET: 'alphaevolution'
+      OSS_ID: ''
+      OSS_KEY: ''
+    ports:
+      - '1337:1337'
+    networks:
+      - app_net
+
+networks:
+  app_net:
+    external: true

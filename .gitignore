@@ -1,0 +1,7 @@
+node_modules
+.idea
+config/Debug.json
+build/images
+.DS_Store
+./images/*
+.vscode

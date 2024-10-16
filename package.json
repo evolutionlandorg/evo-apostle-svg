@@ -1,0 +1,24 @@
+{
+  "name": "e3_svg_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Cfg.js",
+  "scripts": {
+    "start": "node run.js",
+    "production": "NODE_ENV=production node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.15.3",
+    "ali-oss": "^6.0.1",
+    "big-integer": "^1.6.36",
+    "imagemin": "^6.1.0",
+    "imagemin-pngquant": "^6.0.1",
+    "redis": "^2.8.0",
+    "svgexport": "^0.3.2",
+    "tempy": "^0.2.1",
+    "xmldom": "^0.1.27"
+  }
+}
